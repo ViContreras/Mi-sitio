@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+<title>Diferentes tipos de estilos</title>
+<meta name="description" content="Portal web aprenderaprogramar.com">
+
+<meta name="keywords" content="aprender, programar, cursos, libros">
+
+<meta charset="utf-8">
+<style>
+	@import 'css/import.css';
+</style>
+<style>
+	h2{color:green;}
+</style>
+<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+</head>
+<body>
+	<h1 style="color:red">TODO ES UNA CAJA</h1>
+	<p>
+		Uno de los conceptos mas </p>
+	<p>
+		Eso, exactamente 
+	</p>
+
+	Con este modelo debemos por lo tanto distinguir <img src="img/ModeloCaja.jpg" alt="
+	caja html">
+	"title="caja html con sus partes 
+	<ul>
+		<li>El contenidoque se </li>
+		<li>El padding que es </li>
+		<li>El borde que es</li>
+		<li>El margen que es </li>
+	</ul>
+		<h2>Comportamiento de una caja (estilos con la etiqueta style)</h2>
+
+		<p>Los elementos en bloque son elementos que, independientemente</p>
+		<p>Es como si</p>
+		<p>En cambio, los elementos en línea antes y uno después (figuradamente hablando).</p>
+		<p>Representado esto gráficamente sería algo así:</p>
+
+	<img src="img/bloque.jpg" alt="Imagen de dos elementos en diferentes líneas, " title="Elementos de bloque ">
+	<img src="img/linea.jpg">
+
+	<h4>NOTA: Es muy importante saber qué tipo de elemento es cada etiqueta que usamos.</h4>
+
+</body>
+</html>
