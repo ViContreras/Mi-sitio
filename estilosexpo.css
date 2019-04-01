@@ -2,11 +2,22 @@
 	text-align: center;
 }
 #first {
-	width=50%;
+	width:50%;
 	background-color: purple;
 }
 #first img {
-	width=50%;
+	width:50%;
 	border-top: 10px solid black;
 	border-bottom: 10px dashed violet;
+}
+#first, #second {
+			margin: 50px
+			padding: 30px;	}
+span{
+	text-decoration: underline;}
+p{
+	font-size: 0.5em;
+	font-weight: bold;
+	text-align: left;
+	text-indent: 100px;
 }
