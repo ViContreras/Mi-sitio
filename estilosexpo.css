@@ -3,12 +3,12 @@
 }
 #first {
 	width:50%;
-	background-color: purple;
+	background-color: grey;
 }
 #first img {
 	width:50%;
-	border-top: 10px solid black;
-	border-bottom: 10px dashed violet;
+	border-top: 10px solid violet;
+	border-bottom: 10px dashed yellow;
 }
 #first, #second {
 			margin: 50px
