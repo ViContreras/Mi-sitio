@@ -16,8 +16,9 @@ height: 50px;}
 	font-size: 1.5em; 
 }
 /* Añadiendo sólo un id a la fila que las contiene añade estilos a los elementos de la lista que están dentro de esa fila para ponerles color de texto verde*/
-#listas ul {
-	color:#00661A; 
+#listas li {
+	color:#00661A;
+	list-style-type: none; 
 }
 /*Utilizando un id aumenta el padding superior e inferior a la celda en la que pone "15 horas" y cambia el color de  fondo a verde*/
 #quince{
