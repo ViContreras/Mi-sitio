@@ -1,0 +1,18 @@
+legend 
+	{
+		border-style:solid;
+		border-color:black;
+		border-width:thin;
+		border-radius::25px;
+		backgroud-color:white;
+	}
+#fondo1
+	{
+		backgroud-color:lightgrey;
+		border-radius:25px;
+	}
+#fondo2
+	{
+		backgroud-color:lightgrey;
+		border-radius:25px;
+	}
