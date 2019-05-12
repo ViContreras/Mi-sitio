@@ -1,0 +1,115 @@
+h1 {
+	background-color: red;
+	color: gray;
+	text-align: center;
+
+}
+
+.container{
+	width: 100%;
+	display: flex;
+}
+.header {
+	background-color: blue;
+	height: 30px;
+	
+}
+.link{
+	width: 150px;
+	padding:8px;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+.menu{
+	background-color: blue;
+	width: 20%;
+}
+.section{
+	width: 75%;
+	margin-left: 5%;
+	display: flex;
+	flex-wrap: wrap;
+}
+img{
+	margin-top: 20px;
+}
+.article{
+	width: 30%;
+	margin:5px;
+}
+
+.column {
+	column-count: 3;
+	margin-top: 20px;
+}
+	
+
+.borderblue{
+	border-radius: 5%;
+	border: 1px solid blue;
+	text-align: center;
+
+}
+.footer{
+	background-color: #d3d3d3;
+	text-align: center;
+	padding: 15px;
+	border-bottom: 1px solid black;
+}
+.textpurple{
+	color: purple;
+}
+/*Media Query Mobile*/
+@media (min-width: 600px) and (max-width: 992px ) {
+  
+	 
+	.article{
+		width: 47.5%;
+
+	}
+	.article.fullWidth{
+		width: 100%;
+
+	}
+	
+	.section{
+		margin: 0;
+		width: 100%;
+	}
+	.column{
+		column-count: 2;
+	} 
+	.menu{
+		display: none;
+	}
+@media only screen and (max-width: 600px) {
+	h1{
+		background-color: white;
+		font-size: 25px;
+
+	}
+	.menu{
+		display: none;
+	}
+	.section{
+		display: block;
+		width: 100%;
+		margin-left: 0;
+	}
+	.article{
+		width: 100%;
+		margin: 0;
+		margin-bottom: 10px; 
+	}
+	a{
+		font-weight: normal;
+	}
+	.column{
+		column-count: 1;
+	}
+}
+
