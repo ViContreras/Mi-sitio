@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ejercicio practico</title>
+	<link rel="stylesheet" type="text/css" href="css/tarea2v12.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<h1>EJERCICIO PRÁCTICO: Diseño Adaptativo (Responsive)</h1>
+	<div class = "container header">
+		<div class="link">
+			<a href="">Introducción</a>
+		</div>
+		<div class="link">
+			<a href="tarea2v12.html">Viewport</a>
+		</div>
+		<div class="link">
+			<a href="">Breakpoints</a>
+		</div>
+		<div class="link">
+			<a href="">Media Queries</a>
+		</div>
+	</div>
+		<br>
+	<div class="container">
+		<div class = "menu">
+			<div class="link">
+				<a href="">Introducción</a>
+			</div>
+			<div class="link">
+				<a href="">Viewport</a>
+			</div>
+			<div class="link">
+				<a href="">Breakpoints</a>
+			</div>
+			<div class="link">
+				<a href="">Media Queries</a>
+			</div>
+		</div>
+		<div class="section">
+			<div class="article borderblue">
+				<img src="img/imagen1.jpg" width="150px " height="80px">
+				<p>Como vimos en los capítulos de introducción en el Manual de Responsive, uno de los motivos por los que existe esta filosofía de diseño es el de no crear versiones distintas para distintos tipos de sistemas. No creamos una versión para móviles, otra para tabletas y otra para ordenadores.</p>
+			</div>
+			<div class="article borderblue">
+				<img src="img/imagen2.jpg" width="130px " height="80px">
+				<p>Las páginas web por naturaleza son “adaptables" desde el nacimiento mismo de la Web. Para comprobar que esta hipótesis es correcta, pensemos en un archivo HTML correctamente estructurado, con encabezados, párrafos y listas. Pero sin diseño. Es decir, un archivo HTML al que no le vinculamos ninguna hoja de estilos, al que no lo maquetamos.</p>
+
+			</div>
+			<div class="article borderblue fullWidth">
+				<img src="img/imagen3.jpg" width="200px " height="80px">
+				<p>Es decir, somos los diseñadores mismos los que causamos el problema, con nuestro antiguo proceso de diseño (heredado de medios gráficos como el papel) y la falla está en algunas decisiones que tomamos en su transcurso.</p>
+			</div>
+			<div class="column">
+				<p>Deberemos tener especial cuidado en que los valores de los rangos que definamos no se superpongan. Es decir, si el valor máximo de uno es 320, definiremos el inicio del siguiente rango en 321 y no en 320 exactos, ya que de lo contrario se leerán las dos hojas cuando un dispositivo tenga exactamente esa medida.<p>
+				<p>Esta técnica llamada media queries, que nos permite condicionar la lectura de distintos estilos, es la que nos abre la posibilidad a un nuevo enfoque de diseño web, que resulta ideal para dar soporte a la enorme diversidad de dispositivos existentes actualmente. Este enfoque es conocido como “diseño web adaptable” o “diseño web sensible” (responsive web design, originalmente).</p>
+				<ul>
+					<li>Maquetación adaptable usando Media Queries, modificando la cantidad de columnas del diseño, con grillas flexibles, adaptando los anchos dentro de cada rango.</li>
+					<li>Imágenes y multimedia adaptables, cambiando el tamaño de las imágenes y otros elementos vinculados. No debemos olvidar, si el sitio los incluye, la adaptación de videos y animaciones, y demás contenidos complejos como mapas, tablas, slides, etc.s</li>
+			</ul>
+			</div>
+		</div>
+	</div>
+	<p class="footer">Diseño adaptativo hecho por: 
+		<span class="textpurple">Victor Contreras</span>
+	</p>
+</body>
+</html>
